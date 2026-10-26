@@ -30,4 +30,36 @@ public class ExpedienteAcademico {
         this.notaMediaAcceso = notaMediaAcceso;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getNumeroExpediente() {
+        return numeroExpediente;
+    }
+
+    public void setNumeroExpediente(String numeroExpediente) {
+        this.numeroExpediente = numeroExpediente;
+    }
+
+    public LocalDate getFechaApertura() {
+        return fechaApertura;
+    }
+
+    public void setFechaApertura(LocalDate fechaApertura) {
+        this.fechaApertura = fechaApertura;
+    }
+
+    public Double getNotaMediaAcceso() {
+        return notaMediaAcceso;
+    }
+
+    public void setNotaMediaAcceso(Double notaMediaAcceso) {
+        this.notaMediaAcceso = notaMediaAcceso;
+    }
+
 }
